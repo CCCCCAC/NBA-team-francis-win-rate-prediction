@@ -1,0 +1,9 @@
+NBA TEAM VALUATION MODEL REPORT 2025
+==================================================
+
+Model: ln(TV) = ¦Á + ¦Â¡ÁRWIN + ¦È¡ÁPLAYER_EXPENSES
+Training Data: 2021-2024 seasons
+Prediction Year: 2025
+Number of Teams: 30
+
+PERFORMANCE METRICS:

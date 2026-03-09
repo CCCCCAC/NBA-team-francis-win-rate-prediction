@@ -1,0 +1,245 @@
+TVln拟合报告
+TEAM VALUATION MODEL FITTING RESULTS
+Model: ln(TEAM_VALUE) = α + β × RWIN + θ × PLAYER_EXPENSES
+================================================================================
+
+Top 10 Teams with Best Fit:
+TEAM    Alpha      Beta    Theta       R2       RMSE  Samples
+ ORL 5.414894  0.758524 0.016218 0.997605  41.517879        5
+ DAL 7.503131 -0.133252 0.005630 0.989379  93.460340        5
+ PHI 5.188962  0.787677 0.016603 0.988132 116.082206        5
+ HOU 6.519841  0.706842 0.010692 0.984336 142.898189        5
+ CLE 5.910092 -0.894692 0.017799 0.976491 179.622822        5
+ ATL 4.900764  2.148771 0.014212 0.968290 216.883603        5
+ MIN 5.672820  0.989567 0.009883 0.963940 150.965826        5
+ MIL 7.118286 -0.996759 0.008698 0.962864 179.373539        5
+ BOS 8.558848 -1.776498 0.007210 0.958025 243.831546        5
+ MEM 6.953068 -0.469294 0.007378 0.957674 157.812484        5
+
+Overall Statistics:
+Average R²: 0.870
+Median R²: 0.903
+Teams with R² > 0.9: 16
+Teams with R² > 0.8: 23
+Teams with R² > 0.7: 28
+Teams with R² < 0.3: 0
+
+Detailed results saved to: TV_fitting.xlsx
+
+Parameter Statistics:
+Alpha (Intercept) - Mean: 6.826, Std: 1.447
+Beta (RWIN Coefficient) - Mean: -0.163, Std: 1.621
+Theta (Player Expenses Coefficient) - Mean: 0.0097, Std: 0.0056
+
+================================================================================
+TOP 3 BEST FITTING TEAMS:
+ORL: R²=0.9976, α=5.415, β=0.759, θ=0.0162
+DAL: R²=0.9894, α=7.503, β=-0.133, θ=0.0056
+PHI: R²=0.9881, α=5.189, β=0.788, θ=0.0166
+
+TOP 3 WORST FITTING TEAMS:
+GSW: R²=0.4143, α=10.318, β=-3.241, θ=0.0028
+LAL: R²=0.5136, α=7.790, β=2.918, θ=-0.0034
+UTA: R²=0.7097, α=8.760, β=-2.202, θ=0.0001
+
+================================================================================
+ANALYSIS COMPLETED!
+================================================================================
+
+进程已结束，退出代码为 0
+
+
+
+
+
+TV2025预测报告
+去掉BOS
+================================================================================
+TV PREDICTION MODEL VALIDATION REPORT
+================================================================================
+Model: ln(TV) = α + β × (WINPCT_norm) + θ × (PE_norm)
+Training: 2021-2024 seasons
+Testing: 2025 season predictions
+================================================================================
+
+OVERALL PERFORMANCE:
+Teams evaluated: 29
+R² on 2025 predictions: 0.2173
+RMSE: $1683M
+MAE: $1268M
+Mean absolute error: 22.3%
+Median absolute error: 19.8%
+
+ERROR DISTRIBUTION:
+Teams with error < 5%: 4 (13.8%)
+Teams with error < 10%: 6 (20.7%)
+Teams with error < 20%: 15 (51.7%)
+Teams with error > 30%: 6 (20.7%)
+
+MODEL PARAMETERS (averaged across teams):
+Alpha (intercept): 8.028
+Beta (WINPCT coefficient): 0.001 ± 0.140
+Theta (PE coefficient): 0.2359 ± 0.1468
+
+ERROR ANALYSIS:
+Average WINPCT prediction used: 0.502
+Average PE used: $173M
+
+BETA COEFFICIENT ANALYSIS:
+Positive beta (WINPCT增加→TV增加): 13 teams (44.8%)
+Negative beta (WINPCT增加→TV减少): 16 teams (55.2%)
+
+BEST PREDICTIONS (error < 10%):
+  SAS: Actual=$4400M, Pred=$4562M, Error=3.7%
+  SAC: Actual=$4450M, Pred=$4616M, Error=3.7%
+  MIN: Actual=$3600M, Pred=$3444M, Error=4.3%
+  PHI: Actual=$5450M, Pred=$5689M, Error=4.4%
+  DAL: Actual=$5100M, Pred=$5490M, Error=7.6%
+  ORL: Actual=$3900M, Pred=$4221M, Error=8.2%
+
+WORST PREDICTIONS (error > 30%):
+  UTA: Actual=$4100M, Pred=$1810M, Error=55.8%
+  LAL: Actual=$10000M, Pred=$5051M, Error=49.5%
+  OKC: Actual=$4350M, Pred=$2231M, Error=48.7%
+  LAC: Actual=$7500M, Pred=$4154M, Error=44.6%
+  IND: Actual=$4200M, Pred=$2397M, Error=42.9%
+  GSW: Actual=$11000M, Pred=$7542M, Error=31.4%
+
+SAMPLE PREDICTION DETAILS:
+  Team: ATL
+  Model: ln(TV) = 7.842 + 0.042×(WINPCT_norm) + 0.4211×(PE_norm)
+  Training stats: RWIN_mean=0.488, RWIN_std=0.036
+                   PE_mean=$134M, PE_std=$34M
+  2025 WINPCT: 0.483 → normalized: -0.133
+  2025 PE: $178M → normalized: 1.286
+  Predicted TV: exp(7.842 + 0.042×-0.133 + 0.4211×1.286)
+              = exp(8.378)
+              = $4348M (Actual: $5000M, Error: 13.0%)
+
+MODEL DIAGNOSTICS:
+================================================================================
+VALIDATION COMPLETED
+================================================================================
+
+Detailed results saved to: tv_prediction_validation_results.xlsx
+
+
+
+
+F:\Anaconda3\python.exe "D:\MathematicalModeling Resource\2026\code\TV.py" 
+======================================================================
+TEAM VALUATION MODEL ANALYSIS (2022-2025 ONLY)
+Model: ln(TEAM_VALUE) = α + β × RWIN + θ × PLAYER_EXPENSES
+======================================================================
+Data period: 2022-2025
+Total data points: 120
+Number of teams: 30
+
+
+======================================================================
+OVERALL MODEL PERFORMANCE
+======================================================================
+Successfully fitted teams: 30
+Average R²: 0.864
+Median R²: 0.907
+Std R²: 0.144
+Min R²: 0.368
+Max R²: 1.000
+R² in [0.0,0.3): 0 teams
+R² in [0.3,0.5): 1 teams
+R² in [0.5,0.7): 3 teams
+R² in [0.7,0.9): 11 teams
+R² in [0.9,1.0): 15 teams
+
+Parameter Statistics:
+Alpha - Mean: 5.561, Std: 3.390
+Beta (RWIN) - Mean: 1.393, Std: 8.570
+Theta (PE) - Mean: 0.0129, Std: 0.0142
+
+======================================================================
+TOP 10 BEST FITTING TEAMS
+======================================================================
+Team     |   R²   |   Beta   |   Theta   | Samples
+--------------------------------------------------
+CHI    |  1.000 |   14.697 |    0.0070 | 4
+ORL    |  0.996 |    0.765 |    0.0162 | 4
+HOU    |  0.988 |    0.506 |    0.0149 | 4
+ATL    |  0.986 |    1.357 |    0.0165 | 4
+MEM    |  0.985 |   -0.185 |    0.0070 | 4
+DAL    |  0.979 |   -0.094 |    0.0055 | 4
+PHX    |  0.977 |    0.481 |    0.0062 | 4
+PHI    |  0.975 |    0.786 |    0.0166 | 4
+CLE    |  0.965 |   -0.862 |    0.0186 | 4
+NYK    |  0.955 |  -14.490 |    0.0156 | 4
+
+======================================================================
+BOTTOM 10 WORST FITTING TEAMS
+======================================================================
+Team     |   R²   |   Beta   |   Theta   | Samples
+--------------------------------------------------
+GSW    |  0.368 |   40.764 |   -0.0409 | 4
+DET    |  0.616 |    0.516 |    0.0153 | 4
+UTA    |  0.656 |   -4.188 |    0.0492 | 4
+SAS    |  0.656 |    1.079 |    0.0030 | 4
+POR    |  0.721 |    0.283 |    0.0158 | 4
+LAL    |  0.758 |    0.982 |    0.0179 | 4
+CHA    |  0.807 |    0.290 |    0.0115 | 4
+SAC    |  0.808 |    1.328 |    0.0359 | 4
+NOP    |  0.811 |   -0.151 |    0.0128 | 4
+OKC    |  0.842 |    0.993 |    0.0048 | 4
+
+======================================================================
+COEFFICIENT ANALYSIS
+======================================================================
+Correlation between Beta and R²: -0.543
+Correlation between Theta and R²: 0.305
+
+Interpretation:
+• Beta (RWIN coefficient) positive in 20 teams
+• Beta (RWIN coefficient) negative in 10 teams
+• Theta (PE coefficient) positive in 28 teams
+• Theta (PE coefficient) negative in 2 teams
+
+======================================================================
+MOST INFLUENTIAL PARAMETERS BY TEAM
+======================================================================
+Team     | Dominant Parameter | Beta/RWIN | Theta/PE
+--------------------------------------------------
+ATL    | RWIN (Beta)        |    1.357 |    0.0165
+BOS    | RWIN (Beta)        |   -1.697 |    0.0077
+BRK    | RWIN (Beta)        |   -1.427 |   -0.0041
+CHA    | RWIN (Beta)        |    0.290 |    0.0115
+CHI    | RWIN (Beta)        |   14.697 |    0.0070
+CLE    | RWIN (Beta)        |   -0.862 |    0.0186
+DAL    | RWIN (Beta)        |   -0.094 |    0.0055
+DEN    | RWIN (Beta)        |    1.849 |    0.0171
+DET    | RWIN (Beta)        |    0.516 |    0.0153
+GSW    | RWIN (Beta)        |   40.764 |   -0.0409
+HOU    | RWIN (Beta)        |    0.506 |    0.0149
+IND    | RWIN (Beta)        |    1.157 |    0.0203
+LAC    | RWIN (Beta)        |   -7.245 |    0.0227
+LAL    | RWIN (Beta)        |    0.982 |    0.0179
+MEM    | RWIN (Beta)        |   -0.185 |    0.0070
+MIA    | RWIN (Beta)        |    2.744 |    0.0142
+MIL    | RWIN (Beta)        |   -1.004 |    0.0086
+MIN    | RWIN (Beta)        |    0.824 |    0.0119
+NOP    | RWIN (Beta)        |   -0.151 |    0.0128
+NYK    | RWIN (Beta)        |  -14.490 |    0.0156
+OKC    | RWIN (Beta)        |    0.993 |    0.0048
+ORL    | RWIN (Beta)        |    0.765 |    0.0162
+PHI    | RWIN (Beta)        |    0.786 |    0.0166
+PHX    | RWIN (Beta)        |    0.481 |    0.0062
+POR    | RWIN (Beta)        |    0.283 |    0.0158
+SAC    | RWIN (Beta)        |    1.328 |    0.0359
+SAS    | RWIN (Beta)        |    1.079 |    0.0030
+TOR    | RWIN (Beta)        |    0.593 |    0.0145
+UTA    | RWIN (Beta)        |   -4.188 |    0.0492
+WAS    | RWIN (Beta)        |    1.145 |    0.0240
+
+Results saved to: TV_fitting_2022_2025.xlsx
+
+======================================================================
+ANALYSIS COMPLETE
+======================================================================
+
+进程已结束，退出代码为 0

@@ -1,0 +1,213 @@
+位置: PG
+可用指标 (8个):
+   1. G
+   2. FG
+   3. FGA
+   4. eFG
+   5. TOV
+   6. PF
+   7. ORtg
+   8. DRtg
+
+PCA信息:
+  主成分数: 5
+  累积方差: 90.25%
+
+指标权重排序:
+   1. FGA       : 0.1358 ( 13.6%) [累积:  13.6%]
+   2. G         : 0.1317 ( 13.2%) [累积:  26.7%]
+   3. PF        : 0.1300 ( 13.0%) [累积:  39.8%]
+   4. DRtg      : 0.1283 ( 12.8%) [累积:  52.6%]
+   5. ORtg      : 0.1250 ( 12.5%) [累积:  65.1%]
+   6. eFG       : 0.1235 ( 12.4%) [累积:  77.4%]
+   7. FG        : 0.1225 ( 12.2%) [累积:  89.7%]
+   8. TOV       : 0.1032 ( 10.3%) [累积: 100.0%]
+
+球员排名 (前15):
+   1. Shai Gilgeous-Alexander:  100.0
+   2. TyTy Washington Jr.    :   84.0
+   3. Jamaree Bouyea         :   82.9
+   4. Tyrese Maxey           :   80.1
+   5. Jamal Murray           :   79.3
+   6. Payton Pritchard       :   79.0
+   7. Stephen Curry          :   77.6
+   8. Collin Gillespie       :   74.8
+   9. Tre Jones              :   71.7
+  10. Jalen Brunson          :   71.1
+  11. T.J. McConnell         :   70.9
+  12. Immanuel Quickley      :   70.0
+  13. Luka Dončić            :   69.3
+  14. De'Aaron Fox           :   69.3
+  15. Amen Thompson          :   68.3
+
+============================================================
+位置: SG
+可用指标 (8个):
+   1. G
+   2. FG
+   3. FGA
+   4. eFG
+   5. TOV
+   6. PF
+   7. ORtg
+   8. DRtg
+
+PCA信息:
+  主成分数: 5
+  累积方差: 90.56%
+
+指标权重排序:
+   1. PF        : 0.1382 ( 13.8%) [累积:  13.8%]
+   2. eFG       : 0.1362 ( 13.6%) [累积:  27.4%]
+   3. FGA       : 0.1303 ( 13.0%) [累积:  40.5%]
+   4. TOV       : 0.1251 ( 12.5%) [累积:  53.0%]
+   5. ORtg      : 0.1212 ( 12.1%) [累积:  65.1%]
+   6. G         : 0.1202 ( 12.0%) [累积:  77.1%]
+   7. DRtg      : 0.1193 ( 11.9%) [累积:  89.1%]
+   8. FG        : 0.1094 ( 10.9%) [累积: 100.0%]
+
+球员排名 (前15):
+   1. Pat Connaughton        :  100.0
+   2. Anthony Edwards        :   91.1
+   3. Tim Hardaway Jr.       :   90.6
+   4. Eric Gordon            :   89.5
+   5. Luke Kennard           :   88.3
+   6. Max Christie           :   86.9
+   7. Matisse Thybulle       :   86.6
+   8. Chaz Lanier            :   86.5
+   9. Isaiah Joe             :   85.5
+  10. Miles McBride          :   84.8
+  11. Seth Curry             :   84.8
+  12. Tyler Herro            :   83.8
+  13. Landry Shamet          :   83.4
+  14. Norman Powell          :   83.1
+  15. Devin Vassell          :   82.7
+
+============================================================
+位置: SF
+可用指标 (8个):
+   1. G
+   2. FG
+   3. FGA
+   4. eFG
+   5. TOV
+   6. PF
+   7. ORtg
+   8. DRtg
+
+PCA信息:
+  主成分数: 5
+  累积方差: 90.00%
+
+指标权重排序:
+   1. eFG       : 0.1408 ( 14.1%) [累积:  14.1%]
+   2. ORtg      : 0.1376 ( 13.8%) [累积:  27.8%]
+   3. FGA       : 0.1330 ( 13.3%) [累积:  41.1%]
+   4. FG        : 0.1303 ( 13.0%) [累积:  54.2%]
+   5. DRtg      : 0.1287 ( 12.9%) [累积:  67.0%]
+   6. TOV       : 0.1133 ( 11.3%) [累积:  78.4%]
+   7. G         : 0.1115 ( 11.1%) [累积:  89.5%]
+   8. PF        : 0.1050 ( 10.5%) [累积: 100.0%]
+
+球员排名 (前15):
+   1. Kawhi Leonard          :  100.0
+   2. Keldon Johnson         :   98.6
+   3. Mikal Bridges          :   96.7
+   4. Jimmy Butler           :   95.0
+   5. Kevin Durant           :   90.8
+   6. Naji Marshall          :   88.0
+   7. RJ Barrett             :   87.8
+   8. Michael Porter Jr.     :   87.5
+   9. Franz Wagner           :   87.4
+  10. Trey Murphy III        :   86.9
+  11. Duncan Robinson        :   86.6
+  12. Kon Knueppel           :   86.5
+  13. Saddiq Bey             :   85.8
+  14. Jalen Johnson          :   84.6
+  15. David Jones García     :   84.1
+
+============================================================
+位置: PF
+可用指标 (8个):
+   1. G
+   2. FG
+   3. FGA
+   4. eFG
+   5. TOV
+   6. PF
+   7. ORtg
+   8. DRtg
+
+PCA信息:
+  主成分数: 5
+  累积方差: 92.69%
+
+指标权重排序:
+   1. TOV       : 0.1377 ( 13.8%) [累积:  13.8%]
+   2. FGA       : 0.1356 ( 13.6%) [累积:  27.3%]
+   3. eFG       : 0.1273 ( 12.7%) [累积:  40.1%]
+   4. G         : 0.1240 ( 12.4%) [累积:  52.5%]
+   5. ORtg      : 0.1231 ( 12.3%) [累积:  64.8%]
+   6. DRtg      : 0.1189 ( 11.9%) [累积:  76.7%]
+   7. PF        : 0.1188 ( 11.9%) [累积:  88.5%]
+   8. FG        : 0.1146 ( 11.5%) [累积: 100.0%]
+
+球员排名 (前15):
+   1. Chet Holmgren          :  100.0
+   2. Sam Hauser             :   97.0
+   3. Jeff Green             :   96.9
+   4. Kenrich Williams       :   96.6
+   5. Tobias Harris          :   96.0
+   6. Aaron Gordon           :   95.7
+   7. Santi Aldama           :   95.3
+   8. Anthony Davis          :   92.9
+   9. Bobby Portis           :   92.8
+  10. Miles Bridges          :   92.7
+  11. Joan Beringer          :   92.5
+  12. Jabari Smith Jr.       :   91.0
+  13. Harrison Barnes        :   90.8
+  14. Evan Mobley            :   90.2
+  15. Rui Hachimura          :   89.7
+
+============================================================
+位置: C
+可用指标 (8个):
+   1. G
+   2. FG
+   3. FGA
+   4. eFG
+   5. TOV
+   6. PF
+   7. ORtg
+   8. DRtg
+
+PCA信息:
+  主成分数: 5
+  累积方差: 90.53%
+
+指标权重排序:
+   1. eFG       : 0.1325 ( 13.3%) [累积:  13.3%]
+   2. FGA       : 0.1318 ( 13.2%) [累积:  26.4%]
+   3. PF        : 0.1287 ( 12.9%) [累积:  39.3%]
+   4. FG        : 0.1279 ( 12.8%) [累积:  52.1%]
+   5. G         : 0.1259 ( 12.6%) [累积:  64.7%]
+   6. DRtg      : 0.1239 ( 12.4%) [累积:  77.1%]
+   7. ORtg      : 0.1197 ( 12.0%) [累积:  89.0%]
+   8. TOV       : 0.1096 ( 11.0%) [累积: 100.0%]
+
+球员排名 (前15):
+   1. Robert Williams        :  100.0
+   2. Kel'el Ware            :   93.6
+   3. Mark Williams          :   93.2
+   4. Nikola Jokić           :   92.5
+   5. Ryan Kalkbrenner       :   92.0
+   6. Luke Kornet            :   91.4
+   7. Branden Carlson        :   89.6
+   8. Jalen Duren            :   89.3
+   9. Victor Wembanyama      :   88.4
+  10. Rudy Gobert            :   87.8
+  11. Sandro Mamukelashvili  :   86.7
+  12. Isaiah Hartenstein     :   85.8
+  13. Neemias Queta          :   85.8
+  14. Goga Bitadze           :   85.7
+  15. Nikola Vučević         :   85.6

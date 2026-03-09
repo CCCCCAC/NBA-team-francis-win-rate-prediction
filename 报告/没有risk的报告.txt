@@ -1,0 +1,46 @@
+PG位置前5名:
+                 Player  Rk   MP  predicted_mp  normalized_mp  player_value  player_value_norm  pos_rank
+           Tyrese Maxey   1 1720       1482.66    1702.815022     49.319704         100.000000         1
+Shai Gilgeous-Alexander  17 1540       1430.82    1536.034934     48.856615          99.041518         2
+         Keyonte George  13 1583       1443.78    1576.690209     48.543382          98.393203         3
+          Amen Thompson   2 1683       1479.42    1670.158360     47.728417          96.706424         4
+       Payton Pritchard  25 1505       1404.90    1501.594732     47.543954          96.324631         5
+
+SG位置前5名:
+          Player  Rk   MP  predicted_mp  normalized_mp  player_value  player_value_norm  pos_rank
+Donovan Mitchell  20 1533       1421.10    1528.812815     24.288643          48.191827         1
+    Devin Booker  41 1394       1353.06    1393.392849     22.693002          44.889241         2
+ Anthony Edwards  49 1338       1327.14    1337.955807     22.353451          44.186453         3
+    Desmond Bane  14 1569       1440.54    1563.591547     22.219790          43.909807         4
+   Derrick White  19 1535       1424.34    1530.911729     21.911697          43.272129         5
+
+SF位置前5名:
+         Player  Rk   MP  predicted_mp  normalized_mp  player_value  player_value_norm  pos_rank
+   Kevin Durant  12 1584       1447.02    1577.898653     43.530908          88.018607         1
+Trey Murphy III   6 1612       1466.46    1605.222767     43.406181          87.760453         2
+  Mikal Bridges   4 1629       1472.94    1621.273787     43.082381          87.090266         3
+   Jaylen Brown  24 1514       1408.14    1510.209690     42.819172          86.545488         4
+   Kon Knueppel  28 1495       1395.18    1491.590799     41.789285          84.413875         5
+
+PF位置前5名:
+        Player  Rk   MP  predicted_mp  normalized_mp  player_value  player_value_norm  pos_rank
+ Julius Randle   8 1605       1459.98    1598.241595     29.922582          59.852703         1
+ DeMar DeRozan  11 1598       1450.26    1590.949718     29.502381          58.982989         2
+Scottie Barnes   3 1654       1476.18    1644.079129     29.177512          58.310590         3
+ Miles Bridges  23 1521       1411.38    1516.951314     28.880985          57.696851         4
+ Pascal Siakam  15 1564       1437.30    1558.723519     28.443614          56.791601         5
+
+C位置前5名:
+            Player  Rk   MP  predicted_mp  normalized_mp  player_value  player_value_norm  pos_rank
+    Onyeka Okongwu  26 1503       1401.66    1499.504085     12.333255          23.447098         1
+Karl-Anthony Towns  42 1391       1349.82    1390.384335     12.326821          23.433781         2
+    Nikola Vučević  39 1421       1359.54    1419.651302     12.296959          23.371975         3
+ Jaren Jackson Jr.  55 1318       1307.70    1317.959648     12.244004          23.262371         4
+          Naz Reid  69 1260       1262.34    1259.997828     12.160192          23.088900         5
+
+MP调整统计:
+平均实际MP: 677.9
+平均预测MP: 677.0
+平均归一化MP: 677.9
+平均调整系数: 1.003
+

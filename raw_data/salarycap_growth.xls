@@ -1,0 +1,49 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Worksheet</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><thead></thead>
+    
+    
+      
+      <tbody>
+      <tr data-row="0"><th scope="row" class="right " data-stat="year_id">1984-85</th><td class="right right" data-stat="cap">$3,600,000</td><td class="right right" data-stat="cap2022">$9,793,069</td></tr>
+<tr data-row="1"><th scope="row" class="right " data-stat="year_id">1985-86</th><td class="right right" data-stat="cap">$4,233,000</td><td class="right right" data-stat="cap2022">$11,298,280</td></tr>
+<tr data-row="2"><th scope="row" class="right " data-stat="year_id">1986-87</th><td class="right right" data-stat="cap">$4,945,000</td><td class="right right" data-stat="cap2022">$12,734,751</td></tr>
+<tr data-row="3"><th scope="row" class="right " data-stat="year_id">1987-88</th><td class="right right" data-stat="cap">$6,164,000</td><td class="right right" data-stat="cap2022">$15,248,702</td></tr>
+<tr data-row="4"><th scope="row" class="right " data-stat="year_id">1988-89</th><td class="right right" data-stat="cap">$7,232,000</td><td class="right right" data-stat="cap2022">$17,069,461</td></tr>
+<tr data-row="5"><th scope="row" class="right " data-stat="year_id">1989-90</th><td class="right right" data-stat="cap">$9,802,000</td><td class="right right" data-stat="cap2022">$21,950,887</td></tr>
+<tr data-row="6"><th scope="row" class="right " data-stat="year_id">1990-91</th><td class="right right" data-stat="cap">$11,871,000</td><td class="right right" data-stat="cap2022">$25,499,592</td></tr>
+<tr data-row="7"><th scope="row" class="right " data-stat="year_id">1991-92</th><td class="right right" data-stat="cap">$12,500,000</td><td class="right right" data-stat="cap2022">$26,061,180</td></tr>
+<tr data-row="8"><th scope="row" class="right " data-stat="year_id">1992-93</th><td class="right right" data-stat="cap">$14,000,000</td><td class="right right" data-stat="cap2022">$28,354,756</td></tr>
+<tr data-row="9"><th scope="row" class="right " data-stat="year_id">1993-94</th><td class="right right" data-stat="cap">$15,175,000</td><td class="right right" data-stat="cap2022">$29,954,782</td></tr>
+<tr data-row="10"><th scope="row" class="right " data-stat="year_id">1994-95</th><td class="right right" data-stat="cap">$15,964,000</td><td class="right right" data-stat="cap2022">$30,651,995</td></tr>
+<tr data-row="11"><th scope="row" class="right " data-stat="year_id">1995-96</th><td class="right right" data-stat="cap">$23,000,000</td><td class="right right" data-stat="cap2022">$42,906,004</td></tr>
+<tr data-row="12"><th scope="row" class="right " data-stat="year_id">1996-97</th><td class="right right" data-stat="cap">$24,363,000</td><td class="right right" data-stat="cap2022">$44,402,880</td></tr>
+<tr data-row="13"><th scope="row" class="right " data-stat="year_id">1997-98</th><td class="right right" data-stat="cap">$26,900,000</td><td class="right right" data-stat="cap2022">$48,285,994</td></tr>
+<tr data-row="14"><th scope="row" class="right " data-stat="year_id">1998-99</th><td class="right right" data-stat="cap">$30,000,000</td><td class="right right" data-stat="cap2022">$52,688,773</td></tr>
+<tr data-row="15"><th scope="row" class="right " data-stat="year_id">1999-00</th><td class="right right" data-stat="cap">$34,000,000</td><td class="right right" data-stat="cap2022">$57,763,864</td></tr>
+<tr data-row="16"><th scope="row" class="right " data-stat="year_id">2000-01</th><td class="right right" data-stat="cap">$35,500,000</td><td class="right right" data-stat="cap2022">$58,657,395</td></tr>
+<tr data-row="17"><th scope="row" class="right " data-stat="year_id">2001-02</th><td class="right right" data-stat="cap">$42,500,000</td><td class="right right" data-stat="cap2022">$69,132,284</td></tr>
+<tr data-row="18"><th scope="row" class="right " data-stat="year_id">2002-03</th><td class="right right" data-stat="cap">$40,271,000</td><td class="right right" data-stat="cap2022">$64,048,956</td></tr>
+<tr data-row="19"><th scope="row" class="right " data-stat="year_id">2003-04</th><td class="right right" data-stat="cap">$43,840,000</td><td class="right right" data-stat="cap2022">$67,907,202</td></tr>
+<tr data-row="20"><th scope="row" class="right " data-stat="year_id">2004-05</th><td class="right right" data-stat="cap">$43,870,000</td><td class="right right" data-stat="cap2022">$65,719,039</td></tr>
+<tr data-row="21"><th scope="row" class="right " data-stat="year_id">2005-06</th><td class="right right" data-stat="cap">$49,500,000</td><td class="right right" data-stat="cap2022">$71,839,551</td></tr>
+<tr data-row="22"><th scope="row" class="right " data-stat="year_id">2006-07</th><td class="right right" data-stat="cap">$53,135,000</td><td class="right right" data-stat="cap2022">$74,973,988</td></tr>
+<tr data-row="23"><th scope="row" class="right " data-stat="year_id">2007-08</th><td class="right right" data-stat="cap">$55,630,000</td><td class="right right" data-stat="cap2022">$75,594,893</td></tr>
+<tr data-row="24"><th scope="row" class="right " data-stat="year_id">2008-09</th><td class="right right" data-stat="cap">$58,680,000</td><td class="right right" data-stat="cap2022">$80,023,973</td></tr>
+<tr data-row="25"><th scope="row" class="right " data-stat="year_id">2009-10</th><td class="right right" data-stat="cap">$57,700,000</td><td class="right right" data-stat="cap2022">$77,414,680</td></tr>
+<tr data-row="26"><th scope="row" class="right " data-stat="year_id">2010-11</th><td class="right right" data-stat="cap">$58,044,000</td><td class="right right" data-stat="cap2022">$75,491,545</td></tr>
+<tr data-row="27"><th scope="row" class="right " data-stat="year_id">2011-12</th><td class="right right" data-stat="cap">$58,044,000</td><td class="right right" data-stat="cap2022">$73,970,553</td></tr>
+<tr data-row="28"><th scope="row" class="right " data-stat="year_id">2012-13</th><td class="right right" data-stat="cap">$58,044,000</td><td class="right right" data-stat="cap2022">$72,903,264</td></tr>
+<tr data-row="29"><th scope="row" class="right " data-stat="year_id">2013-14</th><td class="right right" data-stat="cap">$58,679,000</td><td class="right right" data-stat="cap2022">$72,519,787</td></tr>
+<tr data-row="30"><th scope="row" class="right " data-stat="year_id">2014-15</th><td class="right right" data-stat="cap">$63,065,000</td><td class="right right" data-stat="cap2022">$77,841,847</td></tr>
+<tr data-row="31"><th scope="row" class="right " data-stat="year_id">2015-16</th><td class="right right" data-stat="cap">$70,000,000</td><td class="right right" data-stat="cap2022">$85,323,721</td></tr>
+<tr data-row="32"><th scope="row" class="right " data-stat="year_id">2016-17</th><td class="right right" data-stat="cap">$94,143,000</td><td class="right right" data-stat="cap2022">$112,368,348</td></tr>
+<tr data-row="33"><th scope="row" class="right " data-stat="year_id">2017-18</th><td class="right right" data-stat="cap">$99,093,000</td><td class="right right" data-stat="cap2022">$115,455,294</td></tr>
+<tr data-row="34"><th scope="row" class="right " data-stat="year_id">2018-19</th><td class="right right" data-stat="cap">$101,869,000</td><td class="right right" data-stat="cap2022">$116,573,245</td></tr>
+<tr data-row="35"><th scope="row" class="right " data-stat="year_id">2019-20</th><td class="right right" data-stat="cap">$109,140,000</td><td class="right right" data-stat="cap2022">$123,384,194</td></tr>
+<tr data-row="36"><th scope="row" class="right " data-stat="year_id">2020-21</th><td class="right right" data-stat="cap">$109,140,000</td><td class="right right" data-stat="cap2022">$117,838,496</td></tr>
+<tr data-row="37"><th scope="row" class="right " data-stat="year_id">2021-22</th><td class="right right" data-stat="cap">$112,414,000</td><td class="right right" data-stat="cap2022">$112,414,000</td></tr>
+<tr data-row="38"><th scope="row" class="right " data-stat="year_id">2022-23</th><td class="right right" data-stat="cap">$123,655,000</td><td class="right right iz" data-stat="cap2022"></td></tr>
+<tr data-row="39"><th scope="row" class="right " data-stat="year_id">2023-24</th><td class="right right" data-stat="cap">$136,021,000</td><td class="right right iz" data-stat="cap2022"></td></tr>
+<tr data-row="40"><th scope="row" class="right " data-stat="year_id">2024-25</th><td class="right right" data-stat="cap">$140,588,000</td><td class="right right iz" data-stat="cap2022"></td></tr>
+<tr data-row="41"><th scope="row" class="right " data-stat="year_id">2025-26</th><td class="right right" data-stat="cap">$154,647,000</td><td class="right right iz" data-stat="cap2022"></td></tr>
+
+</tbody></table></body></html>
